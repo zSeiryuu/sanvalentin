@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heart</title>
+    <link rel="stylesheet" href="love10/stylefour.css">
+    <style type="text/css">
+    .boton {padding: 20px 40px;
+cursor: pointer;
+background-color: #013f91;
+text-decoration: none;
+color: #FFF;
+}
+.efecto3 {display: inline-block;
+	transform: perspective(1px) translate(0);
+	box-shadow: 0 0 1px rgba(0,0,0,0);
+	position: relative;
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+.efecto3:before {content:"";
+position:absolute;
+z-index: -1;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background-color: #131313;
+transform: scaleX(0);
+transform-origin: 100% 50%;
+transition-property: transform;
+transition-duration:0.5s;
+transition-timing-function: ease-out;	
+}
+#apDiv5 {position: absolute;
+	width: 131px;
+	height: 115px;
+	z-index: 204;
+	left: 1020px;
+	top: 723px;
+}
+    #apDiv7 {position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 205;
+	left: 52px;
+	top: 735px;
+}
+    #apDiv1 {
+	position: absolute;
+	width: 594px;
+	height: 142px;
+	z-index: 206;
+	color: #FFF;
+	left: 345px;
+	top: 275px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	opacity:60%;
+}
+    </style>
+</head>
+<body>
+<div id="apDiv1">
+<p>Si el tiempo y las circunstancias fueran distintos, no dudaría en demostrarte cada día lo profundo de lo que siento. Te llevo en mis pensamientos y en mi corazón, con cada recuerdo grabado como un tesoro que guardo con cariño. Aunque no pueda decírtelo en cada momento, mi amor por ti es real y constante. Eres una parte esencial de mí, y nada podrá cambiar lo que significas. Siempre estarás en ese rincón especial donde guardo lo más valioso.  </p>
+
+</div>
+<canvas id="alx"></canvas>
+    <div id="apDiv5"> <a href="five.html" class="boton efecto3"> Next </a></div>
+    <script src="scriptfour.js"></script>
+<div id="apDiv7"> <a href="carta.html" class="boton efecto3"> Back </a></div>
+    
+</body>
+</html>
+`

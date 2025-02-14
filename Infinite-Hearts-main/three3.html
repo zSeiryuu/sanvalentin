@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+   <link rel="stylesheet" href="style3.css">
+   <style type="text/css">
+   .boton {padding: 20px 40px;
+cursor: pointer;
+background-color: #013f91;
+text-decoration: none;
+color: #FFF;
+}
+.efecto3 {	display: inline-block;
+	transform: perspective(1px) translate(0);
+	box-shadow: 0 0 1px rgba(0,0,0,0);
+	position: relative;
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+.efecto3:before {content:"";
+position:absolute;
+z-index: -1;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background-color: #131313;
+transform: scaleX(0);
+transform-origin: 100% 50%;
+transition-property: transform;
+transition-duration:0.5s;
+transition-timing-function: ease-out;	
+}
+#apDiv5 {	position: absolute;
+	width: 131px;
+	height: 115px;
+	z-index: 204;
+	left: 1020px;
+	top: 723px;
+}
+   #apDiv7 {	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 205;
+	left: 52px;
+	top: 735px;
+}
+   </style>
+  </head>
+  <body>
+    <div>
+      <canvas id="testCanvas" width="550" height="500"></canvas>
+    </div>
+    <a href="https://createjs.com/" target="_blank"><div class="logo white"></div></a>
+    <div id="apDiv5"> <a href="two.html" class="boton efecto3"> Next </a> </div>
+    <div id="apDiv7"> <a href="love letter2 code/two.html" class="boton efecto3"> Back </a></div>
+  </body>
+  
+<script
+  src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+  crossorigin="anonymous"></script>
+  <script src="https://code.createjs.com/1.0.0/easeljs.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/codepen-template-1.0.js"></script>
+  <script src="script3.js"></script>
+</html>

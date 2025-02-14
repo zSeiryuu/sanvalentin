@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <style type="text/css">
+    .boton {padding: 20px 40px;
+cursor: pointer;
+background-color: #013f91;
+text-decoration: none;
+color: #FFF;
+}
+.efecto3 {display: inline-block;
+	transform: perspective(1px) translate(0);
+	box-shadow: 0 0 1px rgba(0,0,0,0);
+	position: relative;
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+.efecto3:before {content:"";
+position:absolute;
+z-index: -1;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background-color: #131313;
+transform: scaleX(0);
+transform-origin: 100% 50%;
+transition-property: transform;
+transition-duration:0.5s;
+transition-timing-function: ease-out;	
+}
+#apDiv5 {position: absolute;
+	width: 131px;
+	height: 115px;
+	z-index: 204;
+	left: 1020px;
+	top: 723px;
+}
+    #apDiv7 {position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 205;
+	left: 52px;
+	top: 735px;
+}
+    </style>
+    <title>San Valentin Carta 1v</title>
+</head>
+<body>
+    <h1>¡Feliz San Valentín! ❤️</h1>
+    <div class="contenedor">
+        <div class="envoltura-sobre">
+            <div class="sobre">
+                <div class="carta">
+                    <div class="contenido">
+                        <strong>Querida Estrella</strong>
+                        <p>
+                            Hoy es <strong>San Valentín</strong>, el día oficial de los <em>corazones</em>, el <em>chocolate</em> y las declaraciones de amor dramáticas (como en las telenovelas). Así que prepárate, porque aquí va la mía: Desde que te conocí, mi corazón late más rápido que <code>WiFi</code> gratis en una plaza pública. Eres más brillante que un mensaje de "<strong>te amo</strong>" en <strong>LED gigante</strong> y más dulce que el doble de caramelo en un café con extra de crema. Si fueras un algoritmo, serías el más eficiente: optimizas mi felicidad con la menor cantidad de esfuerzo. Si fueras un bug, serías el único que no querría corregir. Y si fueras una aplicación, serías la que siempre tengo anclada en mi pantalla principal. Gracias por hacer de mi vida una versión mejorada, sin errores (bueno, quizá con algunos, pero todos adorables). <br> <strong>Feliz San Valentín</strong>, mi <em>estrella favorita</em>. <br> Con mucho <strong>código</strong> (y <strong>amor</strong>), <br> Tu programador enamorado. <br> <span style="font-size: 0.9em; color: grey;">PD: Si esta carta fuera un programa, su salida sería:</span> <br> <code>"Eres lo mejor que me ha pasado."</code>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="corazon"></div>
+            <div class="solapa-derecha"></div>
+            <div class="solapa-izquierda"></div>
+        </div>
+    </div>
+    <!-- <script src="script_v2.js"></script> -->
+     <script src="script_v2.js"></script>
+     <div id="apDiv5"> <a href="four.html" class="boton efecto3"> Next </a></div>
+     <div id="apDiv7"> <a href="three3.html" class="boton efecto3"> Back </a></div>
+</body>
+</html>
